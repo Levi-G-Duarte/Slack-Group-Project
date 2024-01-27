@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@font-face {
+  font-family: Genty;
+
+  src: url(./GentyDemo-Regular.ttf) format('truetype');
+}
+
 div#sidenav {
     margin:0;
     padding:0;
@@ -6,22 +14,38 @@ div#sidenav {
     z-index:1;
     top:0;
     left:0;
-    background-color:#D35E17;
+    background-color:#F2AE1C;
     transition:0.5s;
     overflow:auto;
+    border-radius: 10px;
 }
-#sidenav a {
-    /* padding: 8px 8px 8px 32px; */
-    padding:16px;
+input {
+  padding:20px;
     text-decoration: none;
-    font-size:25px;
     display:block;
     transition:0.3s;
-    color:black;
+    border-radius:10px;
+    width:200px;
+    margin-left:10%;
+    background-color: #F4E9DD;
 }
-#sidenav a:hover:not(.active) {
-    background-color:#F4E9DD;
-    color:#F2AE1C;
+
+
+#sidenav button {
+    /* padding: 8px 8px 8px 32px; */
+    padding:60.9px;
+    text-decoration: none;
+    display:block;
+    transition:0.3s;
+    color:#F4E9DD;
+  background-color: #F2AE1C;
+  outline: none;
+    text-shadow:2px 2px black;
+}
+
+#sidenav button:hover:not(.active) {
+    background-color:#D35E17;
+    color:#742D00;
 }
 
 .container {
@@ -38,4 +62,5 @@ div#sidenav {
    
    .text {
      font-size: 50px;
+     font-family: 'Lilita One', sans-serif;
    }
