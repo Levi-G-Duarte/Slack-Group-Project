@@ -38,12 +38,14 @@ body {
     outline: none;
     border: none;
     box-sizing: border-box;
+    border-radius:5px;
 }
 
 .topNav button:hover {
     background: #edab82;
     color: grey;
     height: 8vh;
+    border-radius: 5px;
 }
 
 #logo-container {
